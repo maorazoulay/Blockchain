@@ -20,7 +20,7 @@ Blockchain class:
   
 Test class:
   We Intitialize a new blockchain and add 3 valid blocks to it and then check the validity of the blockchain.
-  To further test the validation method of the entire blockchain, we add an invalid block and expect the output to be false upon          validation.
+  To further test the validation method of the entire blockchain, we add an invalid block and expect the output to be false upon validation.
   
 Finally, the output: 
   
