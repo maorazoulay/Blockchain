@@ -1,5 +1,8 @@
 # Blockchain
-Used this guide: https://medium.com/@ssaurel/create-your-own-blockchain-in-30-minutes-dbde3293b390
+
+*Hit the "Raw" button for a better read
+
+I used this guide: https://medium.com/@ssaurel/create-your-own-blockchain-in-30-minutes-dbde3293b390
 to better understad how a blockchain works by writing the code behind it.
 
 Block class:
