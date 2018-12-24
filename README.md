@@ -5,17 +5,17 @@ to better understad how a blockchain works by writing the code behind it.
 Block class:
 
   Where we create our blocks using the following fields:
-    Index- number of block in the order of the chain
-    Timestamp - exact time when the block was created
-    Hash - SHA-256 Cryptographic Hash Function
-    Previous Hash - each node points to the previous node using its hash
-    Data - the data to be stored in the block (in cryptocurrencies it would be transactions)
-    Nonce - will help determine the ever-changing difficulty of mining the blocks 
+    Index- number of block in the order of the chain.
+    Timestamp - exact time when the block was created.
+    Hash - SHA-256 Cryptographic Hash Function.
+    Previous Hash - each node points to the previous node using its hash.
+    Data - the data to be stored in the block (in cryptocurrencies it would be transactions).
+    Nonce - will help determine the ever-changing difficulty of mining the blocks.
 
   In this class, all the magic of hashing blocks is happening using Java's MessageDigest class. 
 
 Blockchain class:
-  In this class we create the Blockchain's data structure (ArrayList<Block>) as well as the Genesis block upon intializing a new          blockchain.
+  In this class we create the Blockchain's data structure (ArrayList<Block>) as well as the Genesis block upon intializing a new blockchain.
   The class provides methods to add new blocks and validate them. We can also choose to validate the entire blockcahin by using the class' various validation methods.
   
 Test class:
