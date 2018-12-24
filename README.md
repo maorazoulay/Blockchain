@@ -15,14 +15,14 @@ Block class:
   In this class, all the magic of hashing blocks is happening using Java's MessageDigest class. 
 
 Blockchain class:
-  In this class we create the Blockchain's data structure (ArrayList<Block>) as well as the Genesis block upon intializing a new             blockchain.
-  The class provides methods to add new blocks and validate them. We can also choose to validate the entire blockcahin by using the class'   various validation methods.
+  In this class we create the Blockchain's data structure (ArrayList<Block>) as well as the Genesis block upon intializing a new          blockchain.
+  The class provides methods to add new blocks and validate them. We can also choose to validate the entire blockcahin by using the class' various validation methods.
   
 Test class:
   We Intitialize a new blockchain and add 3 valid blocks to it and then check the validity of the blockchain.
-  To further test the validation method of the entire blockchain, we add an invalid block and expect the output to be false upon             validation.
+  To further test the validation method of the entire blockchain, we add an invalid block and expect the output to be false upon          validation.
   
-  Finally, the output: 
+Finally, the output: 
   
 Block #0
 [PreviousHash : null
