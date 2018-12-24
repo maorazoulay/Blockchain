@@ -78,12 +78,12 @@ Timestamp : Mon Dec 24 18:15:44 EST 2018
 Data : A bit more transactions
 Hash : 00001790865b6a4d0cd626f2216cde82efa33aeed31f17b94f3569ecfdb97ce9]
 
-Block #7                                               //As you can see, this the invalid block which is why we get a false
+Block #7
 [PreviousHash : something false
 Timestamp : Mon Dec 24 18:15:44 EST 2018
 Data : Invalid Block
 Hash : 00001e61bbeb4203c8f31297a693ce4de6c42583702f86585647edd836c2e8aa]
-
+//The invalid block 
 
 Blockchain valid? false
 
